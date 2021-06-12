@@ -1,0 +1,426 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    margin-top: 24px;
+    float: left;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.findUs {
+    background-color: #edf2f7;
+    border-radius: 8px;
+    color: black;
+}
+.findUs:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.3s;
+    font-family: "Kanit", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@700&display=swap");
+
+li a:hover {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    position: sticky;
+}
+
+.centered {
+    color: #f0e7d1;
+    font-size: 144px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Khand", sans-serif;
+}
+
+.menuBar {
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("imgs/ourTequilaBackground.jpg");
+}
+
+.checkDrink {
+    height: 750px;
+    width: 50%;
+    background-color: #405a46;
+    float: right;
+}
+#blancoDiv {
+    color: #f3f0e9;
+    background-color: #294630;
+}
+.blanco {
+    float: left;
+    height: 750px;
+    width: 50%;
+    background-color: #e0e6b6;
+    background-image: url(imgs/blanco.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.reposado {
+    float: left;
+    height: 750px;
+    width: 50%;
+    background-color: #e0e6b6;
+    background-image: url(imgs/reposado.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.anejo {
+    float: left;
+    height: 750px;
+    width: 50%;
+    background-color: #e0e6b6;
+    background-image: url(imgs/anejo.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.checkDrinkButtons {
+    transition: 0.2s;
+    padding: 8px;
+    bottom: 0px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #e0e6b6;
+    background-color: #405a46;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Kanit", sans-serif;
+}
+
+.description {
+    display: flex;
+    color: #f3f0e9;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.descriptionTitle {
+    display: block;
+    margin: 0px;
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+    color: #e0e6af;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+}
+
+.aboutDrink {
+    padding-top: 10px;
+    display: block;
+    margin: 0 0;
+    color: #f0e7d1;
+    text-align: center;
+    font-family: "Libre Caslon Text", serif;
+    font-size: 18px;
+}
+
+#checkDrinkDiv {
+    flex-grow: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#blancoDescription {
+    margin-top: 0px;
+    padding-top: 0px;
+    display: block;
+}
+#reposadoDescription {
+    display: none;
+}
+#anejoDescription {
+    display: none;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.processTitle {
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #f0e7d1;
+    font-size: 32px;
+    font-family: "Seymour One", sans-serif;
+    height: auto;
+}
+
+.processDescription {
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: center;
+    font-family: "Libre Caslon Text", serif;
+    background-color: #f0e7d1;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.processPart {
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.columnTextLeft {
+    padding-top: 128px;
+    margin-bottom: 60px;
+    float: left;
+    width: 40%;
+    line-height: 45px;
+    height: auto;
+    padding-right: 64px;
+    padding-left: 128px;
+    text-align: left;
+}
+
+.columnTextRight {
+    padding-top: 128px;
+    float: left;
+    width: 40%;
+    height: auto;
+    line-height: 45px;
+    padding-right: 128px;
+    text-align: left;
+}
+
+.columnImgLeft {
+    padding-top: 128px;
+    float: left;
+    width: 60%;
+    height: auto;
+    image-rendering: auto;
+    padding-left: 128px;
+    text-align: left;
+}
+
+.columnImgRight {
+    padding-top: 128px;
+    float: left;
+    width: 60%;
+    height: auto;
+    padding-right: 128px;
+    padding-left: 64px;
+    text-align: left;
+}
+
+.numbering {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    background-color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutTequila {
+    padding-top: 40px;
+    font-family: "Libre Caslon Text", serif;
+    font-size: 15px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.ourSustainabilityButton {
+    background-color: #edf2f7;
+    font-family: "Kanit", sans-serif;
+    border-radius: 3px;
+    border: none;
+    padding-top: 64px;
+    width: auto;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 64px;
+}
+
+.ourSustainabilityButton:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.loginform {
+    width: 100%;
+    height: 100%;
+    background-color: #405a46;
+}
+.login {
+    box-sizing: border-box;
+    padding: 120px 20px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
+}
+.dogtxt {
+    color: #f0e7d1;
+    font-family: "Seymour One", sans-serif;
+}
+.signuptxt {
+    color: #f0e7d1;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    margin-top: 10px;
+}
+.inputlog {
+    height: 42px;
+    border-radius: 4px;
+    border: none;
+    background-color: #edf2f7;
+}
+.inputlog:hover {
+    border: none;
+}
+.signupbtn {
+    width: 100%;
+    height: 42px;
+    border-radius: 4px;
+    max-width: 420px;
+    margin-top: 10px;
+    background-color: #28372c;
+    border: none;
+    color: #809084;
+}
+
+.signupbtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.comeAgainSoonBackground {
+    background-image: url(imgs/rock.jpg);
+    background-size: cover;
+    height: 950px;
+    text-align: center;
+}
+
+.comeAgainSoon {
+    padding-top: 20%;
+}
+footer {
+    width: 100%;
+    height: 380px;
+    background-color: #b39d87;
+    padding: 48px 80px;
+    font-family: "Kanit", sans-serif;
+}
+.copyright {
+    margin-top: 220px;
+    color: white;
+}
+.footer1 {
+    margin-left: 30px;
+}
+.footer2 {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.footer3 {
+    margin-left: 135px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footermenu {
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+}
+
+#last-text {
+    display: flex;
+}
+
+#last-text > p {
+    color: white;
+    font-size: 11px;
+    margin: 30px;
+}
+.flwus {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -290px;
+    color: white;
+}
+.logos {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.logos > a {
+    margin-right: 10px;
+}
